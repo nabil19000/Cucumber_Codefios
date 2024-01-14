@@ -1,0 +1,228 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1594122000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is the login page",
+            "match": {
+              "location": "steps.StepDefinition.user_is_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149773000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter username as \"demo1@codefios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demo1@codefios.com\"",
+                  "offset": 23
+                }
+              ],
+              "location": "steps.StepDefinition.user_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35178000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc123\"",
+                  "offset": 23
+                }
+              ],
+              "location": "steps.StepDefinition.user_enter_password_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8184078000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on signin button",
+            "match": {
+              "location": "steps.StepDefinition.user_click_on_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 222776000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should land on dashboard page",
+            "match": {
+              "location": "steps.StepDefinition.user_should_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-14T19:44:41.053Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6097010000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StepDefinition.before()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Add Account Functionality",
+        "description": "",
+        "id": "add-account-negative-functionality-validation;add-account-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 2202817000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2064738000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on List Account",
+            "match": {
+              "location": "steps.StepDefinition.user_click_on_List_Account()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3532000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should land on Account List",
+            "match": {
+              "location": "steps.StepDefinition.user_should_land_on_Account_List()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29978000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click Add Account",
+            "match": {
+              "location": "steps.StepDefinition.user_click_Add_Account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24711000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should land on new Account pop up window",
+            "match": {
+              "location": "steps.StepDefinition.user_should_land_on_new_Account_pop_up_window()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 144075000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click on save button",
+            "match": {
+              "location": "steps.StepDefinition.user_click_on_save_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17371000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user should get an account name error",
+            "match": {
+              "location": "steps.StepDefinition.user_should_get_an_account_name_error()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11389000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user should get an account balance error",
+            "match": {
+              "location": "steps.StepDefinition.user_should_get_an_account_balance_error()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11109000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should get an account number error",
+            "match": {
+              "location": "steps.StepDefinition.user_should_get_an_account_number_error()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NegTest1"
+          }
+        ]
+      }
+    ],
+    "name": "add account negative functionality validation",
+    "description": "",
+    "id": "add-account-negative-functionality-validation",
+    "keyword": "Feature",
+    "uri": "file:src/resources/features/NegativeAddAcount.feature",
+    "tags": []
+  }
+]
