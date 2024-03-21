@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 public class BasePages {
     public static WebDriver driver ;
     public static void initDriver(){
-        System.setProperty("webdriver.chrome.driver", "/Users/nabil/chromeDriver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/nabil/chromedriver-mac-x64 2/chromedriver");
         driver = new ChromeDriver();
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();

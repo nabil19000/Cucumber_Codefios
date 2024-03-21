@@ -85,6 +85,7 @@ public class AddAccountPage {
 
 
 
+
      public String ValidateAddedAccount() {
          String beforePath = "//*[@id=\"tBody\"]/tr[";
          String afterPath = "]/td[2]";
